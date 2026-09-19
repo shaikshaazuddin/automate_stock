@@ -1,0 +1,12 @@
+.venv/
+.env
+__pycache__/
+*.pyc
+
+# runtime-generated state/logs, not source — memory/params.json IS tracked (tunable config)
+memory/journal.jsonl
+memory/lessons.md
+memory/review_report.md
+memory/themes.json
+state.json
+STOP
